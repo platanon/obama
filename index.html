@@ -55,13 +55,13 @@ body{font-family: Lato;}blockquote{border-color: #e53712;}div[submit-success]{ba
     <div class="container">
         <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!---Formbuilder Form--->
-<form method="POST" class="mbr-form" action-xhr="https://formoid.net/api/amp-form/push" action="https://google.com">
+<form method="POST" class="mbr-form" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="President"><input type="hidden" name="email" data-form-email="true" value="Es29OPUE78QrH34OKYAY2903F8MIimYCIayeq8cb844e3yXy4SotaE17Fqnp9X81Voa4xbbI6aUEZyxqNU5eZIidfYtPng6zJyiMPsvIYfdKH0OTYOpeqTmOy+68Ak8=">
 <div class="mbr-row">
 <div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
-
+<template data-form-alert="" type="amp-mustache">Thanks for filling out the form!</template>
 </div>
 <div submit-error="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
-
+<template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
 </div>
 </div>
 <div class="dragArea mbr-row">
@@ -76,12 +76,12 @@ body{font-family: Lato;}blockquote{border-color: #e53712;}div[submit-success]{ba
 </div>
 <div data-for="form[data][0][1]" class="mbr-col-lg-12 field">
 <label for="form[data][0][1]-formbuilder-6" class="form-control-label mbr-fonts-style display-7">Label</label>
-<input type="hidden" name="form[data][0][0]" value="email" id="form[data][0][0]-formbuilder-6">
+<input type="hidden" name="form[data][0][0]" value="email" id="form[data][0][0]-formbuilder-6" data-form-field="">
 <input type="email" name="form[data][0][1]" placeholder="Email" data-form-field="email" class="field-input display-7" required="required" value="Enter Email" id="form[data][0][1]-formbuilder-6">
 </div>
 <div data-for="form[data][1][1]" class="mbr-col-lg-12 field">
 <label for="form[data][1][1]-formbuilder-6" class="form-control-label mbr-fonts-style display-7">Select</label>
-<input type="hidden" name="form[data][1][0]" value="Choose Your President" id="form[data][1][0]-formbuilder-6">
+<input type="hidden" name="form[data][1][0]" value="Choose Your President" id="form[data][1][0]-formbuilder-6" data-form-field="">
 <select name="form[data][1][1]" data-form-field="Choose Your President" class="field-input display-7" id="form[data][1][1]-formbuilder-6">
 <option value="Barack Obama">Barack Obama</option>
 <option value="Donald Trump">Donald Trump</option>
