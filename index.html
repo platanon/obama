@@ -47,16 +47,20 @@ body{font-family: Lato;}blockquote{border-color: #e53712;}div[submit-success]{ba
 </div>
 <div class="dragArea mbr-row">
 <div data-for="" class="mbr-col-lg-12">
-<h4 class="mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style display-5">
+<h4 class="mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style display-5">
 </h4>
 </div>
 <div data-for="" class="mbr-col-lg-12">
-<h3 class="mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style display-5">Pick Your President</h3>
+<h3 class="mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style display-5">Enter EMail &amp; Pick Your President</h3>
 </div>
 <div data-for="form[data][0][1]" class="mbr-col-lg-12 field">
-<label for="form[data][0][1]-formbuilder-6" class="form-control-label mbr-fonts-style display-7">Select</label>
-<input type="hidden" name="form[data][0][0]" value="Choose Your President" id="form[data][0][0]-formbuilder-6">
-<select name="form[data][0][1]" data-form-field="Choose Your President" class="field-input display-7" id="form[data][0][1]-formbuilder-6">
+<input type="hidden" name="form[data][0][0]" value="email" id="form[data][0][0]-formbuilder-6">
+<input type="email" name="form[data][0][1]" placeholder="test@email.com" data-form-field="email" class="field-input display-7" required="required" value="" id="form[data][0][1]-formbuilder-6">
+</div>
+<div data-for="form[data][1][1]" class="mbr-col-lg-12 field">
+<label for="form[data][1][1]-formbuilder-6" class="form-control-label mbr-fonts-style display-7">Select</label>
+<input type="hidden" name="form[data][1][0]" value="Choose Your President" id="form[data][1][0]-formbuilder-6">
+<select name="form[data][1][1]" data-form-field="Choose Your President" class="field-input display-7" id="form[data][1][1]-formbuilder-6">
 <option value="Barack Obama">Barack Obama</option>
 <option value="Donald Trump">Donald Trump</option>
 </select>
